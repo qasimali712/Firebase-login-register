@@ -7,6 +7,7 @@ import firebase from 'firebase/compat/app';
   providedIn: 'root',
 })
 export class AuthService {
+  //userData: any;
   constructor(
     private afAuth: AngularFireAuth,
     private afDatabase: AngularFireDatabase
@@ -35,6 +36,7 @@ export class AuthService {
         address: 'User Address',
         // Add more properties as needed
       });
+      //await this.afDatabase.object(`users/${uid}`).set(this.userData);
     } catch (error) {}
   }
 
@@ -53,7 +55,7 @@ export class AuthService {
   async logoutUser(): Promise<void> {
     try {
       await this.afAuth.signOut();
-      // Additional actions after successful logout
+      console.log('Successful Logout')
     } catch (error) {
       // Handle logout error (e.g., display error message)
     }
