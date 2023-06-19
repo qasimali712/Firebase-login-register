@@ -1,0 +1,66 @@
+<ion-content fullscreen>
+  <div id="logo_div">
+    <ion-img src="../../../../assets/lg.png"></ion-img>
+  </div>
+
+  <ion-button class="change_language">
+    <ion-icon name="language"></ion-icon>
+  </ion-button>
+
+  <div id="lower_logo">
+    <img src="../../../../assets/loLg.png" />
+  </div>
+
+  <p class="p1">{{"LET'S LOGIN TO"}}</p>
+  <p class="p2">NESPRESSO</p>
+
+  <form [formGroup]="Form" (ngSubmit)="login()" (keyup.enter)="login()">
+    <div class="form-group">
+      <ion-input
+        class="inp"
+        type="email"
+        [(ngModel)]="loginData.login"
+        formControlName="login"
+        placeholder="Email Address"
+      ></ion-input>
+      <ion-input
+        class="inp"
+        [(ngModel)]="loginData.password"
+        formControlName="password"
+        [type]="!isShowPassword ? 'password' : 'text'"
+        placeholder="Password"
+      >
+        <ion-button
+          class="btn-password"
+          fill="clear"
+          (click)="isShowPassword = !isShowPassword"
+          style="position: absolute; right: 13px"
+          slot="end"
+        >
+          <ion-icon *ngIf="!isShowPassword" name="eye"></ion-icon>
+          <ion-icon *ngIf="isShowPassword" name="eye-off"></ion-icon>
+        </ion-button>
+      </ion-input>
+    </div>
+
+    <div class="align-left-ar" style="text-align: right">
+      <a id="link_a">FORGET_PASSWORD</a>
+    </div>
+
+    <div>
+      <ion-button
+        [disabled]="!Form.valid"
+        type="submit"
+        [disabled]="!Form.valid"
+        class="lgbtn"
+        expand="block"
+      >
+        LOGIN
+      </ion-button>
+    </div>
+
+    <div class="align-left-ar" [routerLink]="['/register']">
+      <p id="p_end">DONT_HAVE_ACCOUNT <span>SIGN_UP</span></p>
+    </div>
+  </form>
+</ion-content>

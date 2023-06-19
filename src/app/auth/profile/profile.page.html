@@ -1,0 +1,41 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/dashboard"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="ion-text-center" size="large">Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header> User Information </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Email:</ion-label>
+          <ion-label>{{ userData?.email }}</ion-label>
+        </ion-item>
+
+        <!-- Add more user fields here as needed -->
+        <!-- For example: -->
+        <ion-item>
+          <ion-label>Name:</ion-label>
+          <ion-label>{{ userData?.name }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Phone Number:</ion-label>
+          <ion-label>{{ userData?.phone }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Address:</ion-label>
+          <ion-label>{{ userData?.address }}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="lgbtn" type="button" expand="block" (click)="gotoEdit()"
+    >Edit</ion-button
+  >
+</ion-content>

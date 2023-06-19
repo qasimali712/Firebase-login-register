@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>Asset 1ldpi</title>
+<g id="Layer_2_1_">
+	<g id="layer_1-2">
+		<path class="st0" d="M45,48H3c-1.7,0-3-1.3-3-3V23c0-1.7,1.3-3,3-3h4v2H3c-0.6,0-1,0.4-1,1v22c0,0.6,0.4,1,1,1h42c0.6,0,1-0.4,1-1
+			V23c0-0.6-0.4-1-1-1h-4v-2h4c1.7,0,3,1.3,3,3v22C48,46.7,46.7,48,45,48z"/>
+		<path class="st0" d="M39,48H9c-0.6,0-1-0.4-1-1V1c0-0.6,0.4-1,1-1h30c0.6,0,1,0.4,1,1v46C40,47.6,39.6,48,39,48z M10,46h28V2H10
+			V46z"/>
+		<rect x="42" y="33" class="st0" width="2" height="2"/>
+		<rect x="4" y="33" class="st0" width="2" height="2"/>
+		<rect x="4" y="39" class="st0" width="2" height="2"/>
+		<rect x="4" y="27" class="st0" width="2" height="2"/>
+		<rect x="9" y="8" class="st0" width="30" height="2"/>
+		<path class="st0" d="M15,19h-2v-5c0-0.6,0.4-1,1-1h5v2h-4V19z"/>
+		<path class="st0" d="M35,19h-2v-4h-4v-2h5c0.6,0,1,0.4,1,1V19z"/>
+		<path class="st0" d="M34,43h-5v-2h4v-4h2v5C35,42.6,34.6,43,34,43z"/>
+		<path class="st0" d="M19,43h-5c-0.6,0-1-0.4-1-1v-5h2v4h4V43z"/>
+		<rect x="12" y="4" class="st0" width="2" height="2"/>
+		<rect x="16" y="4" class="st0" width="2" height="2"/>
+		<rect x="20" y="4" class="st0" width="2" height="2"/>
+		<path class="st0" d="M24,35c-2.2,0-4-1.8-4-4h2c0,1.1,0.9,2,2,2s2-0.9,2-2c0-1.1-0.9-2-2-2c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4
+			h-2c0-1.1-0.9-2-2-2s-2,0.9-2,2s0.9,2,2,2c2.2,0,4,1.8,4,4S26.2,35,24,35z"/>
+		<rect x="23" y="34" class="st0" width="2" height="3"/>
+		<rect x="23" y="19" class="st0" width="2" height="3"/>
+		<rect x="15" y="27" class="st0" width="2" height="2"/>
+		<rect x="31" y="27" class="st0" width="2" height="2"/>
+	</g>
+</g>
+</svg>

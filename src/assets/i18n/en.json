@@ -1,0 +1,18 @@
+{
+    "Dashboard": "Dashboard",
+    "LETS_REGISTER": "LET’S Register TO",
+    "LETS_LOGIN": "LET’S LOGIN TO",
+    "USER_NAME": "User Name",
+    "USER_PASSWORD": "Password",
+    "FORGET_PASSWORD": "Forget Password",
+    "LOGIN": "Login",
+    "DONT_HAVE_ACCOUNT": "Don't Have Account?",
+    "SIGN_UP": "Sign Up",
+    "USER_EMAIL": "Email Address",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "MOBILE_NO": "Mobile No.",
+    "COMPLETE_ADDRESS": "Complete Address",
+    "REGISTER_ACCOUNT": "Register",
+    "ALREADY_ACCOUNT": "Already Have Account?",
+    "ADDRESS_INFORMATION": "Address Information"
+}

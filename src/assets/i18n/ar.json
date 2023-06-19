@@ -1,0 +1,20 @@
+{
+    "Dashboard": "لوحة القيادة",
+    "LETS_REGISTER": "دعونا نسجل في",
+    "LETS_LOGIN": "لنقوم بتسجيل الدخول إلى",
+    "USER_NAME": "اسم المستخدم",
+    "USER_PASSWORD": "كلمة مرور المستخدم",
+    "FORGET_PASSWORD": "هل نسيت كلمة السر",
+    "LOGIN": "تسجيل الدخول",
+    "DONT_HAVE_ACCOUNT": "ليس لديك حساب؟",
+    "SIGN_UP": "اشتراك",
+    "USER_EMAIL": "عنوان بريد الكتروني",
+    "CONFIRM_PASSWORD": "تأكيد كلمة المرور",
+    "MOBILE_NO": "رقم الموبايل",
+    "COMPLETE_ADDRESS": "العنوان الكامل",
+    "REGISTER_ACCOUNT": "يسجل",
+    "ALREADY_ACCOUNT": "لديك حساب بالفعل؟",
+    "ADDRESS_INFORMATION": "معلومات العنوان"
+    
+    
+}

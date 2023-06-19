@@ -1,0 +1,23 @@
+ion-header {
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 1-iopx;
+  background: var(--ion-color-primary);
+  // background-image: linear-gradient(to right, var(--grad1) , var(--grad2));
+  border-bottom-right-radius: 89%;
+  height: 150px
+}
+
+
+.success {
+  color: var(--ion-color-success);
+}
+
+ ion-button {
+      position: absolute;
+      bottom: 10%;
+      right: 10%;
+      font-size: 24px;
+      --ripple-color: transparent;
+  }
+

@@ -1,0 +1,64 @@
+<ion-content>
+  <div id="logo_div">
+    <ion-img src="../../../../assets/lg.png"></ion-img>
+  </div>
+
+  <ion-button class="change_language">
+    <ion-icon name="language"></ion-icon>
+  </ion-button>
+
+  <p class="p1">{{ 'LETS REGISTER TO' }}</p>
+  <p class="p2">NESPRESSO</p>
+
+  <div class="ion-text-center">
+    <!-- Registration form -->
+    <form (ngSubmit)="registerUser()">
+      <!-- <ion-input class="inp" type="text" placeholder="Username"></ion-input> -->
+
+      <ion-input
+        class="inp"
+        type="email"
+        placeholder="Email Address"
+        [(ngModel)]="loginData.user_email"
+        name="user_email"
+      ></ion-input>
+
+      <ion-input
+        class="inp"
+        type="password"
+        placeholder="Password"
+        [(ngModel)]="loginData.user_password"
+        name="user_password"
+      ></ion-input>
+
+      <ion-input
+        class="inp"
+        type="password"
+        placeholder="Confirm Password"
+        [(ngModel)]="confirmPassword"
+        name="confirmPassword"
+        (ionChange)="checkPasswordMatch()"
+      ></ion-input>
+
+      <div *ngIf="password && confirmPassword && password !== confirmPassword">
+        Passwords do not match.
+      </div>
+
+      <!-- <ion-input class="inp" type="number" placeholder="Phone Number"></ion-input>
+
+      <ion-input class="inp" type="text" placeholder="Address"></ion-input> -->
+
+      <ion-button class="lgbtn" expand="block" type="submit"
+        >Register</ion-button
+      >
+    </form>
+    <div>
+      <div [routerLink]="['/']">
+        <p id="p_end">{{'ALREADY_ACCOUNT'}} <span>{{'LOGIN'}}</span></p>
+      </div>
+    </div>
+    <!-- <ion-item lines="none" class="ion-text-center">
+
+    </ion-item> -->
+  </div>
+</ion-content>

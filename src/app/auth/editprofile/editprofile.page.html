@@ -1,0 +1,41 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button  defaultHref="/profile"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="ion-text-center" size="large">Edit Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      User Information
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <!-- Display the user information fields with editable inputs -->
+        <!-- For example: -->
+        <ion-item>
+          <ion-label>Email:</ion-label>
+          <ion-input [(ngModel)]="userData.email" type="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Name:</ion-label>
+          <ion-input [(ngModel)]="userData.name" type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Phone Number:</ion-label>
+          <ion-input [(ngModel)]="userData.phone" type="tel"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Address:</ion-label>
+          <ion-input [(ngModel)]="userData.address" type="text"></ion-input>
+        </ion-item>
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="lgbtn" type="button" expand="block" (click)="saveProfile()">Update</ion-button>
+</ion-content>

@@ -1,0 +1,80 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Dashboard</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()" fill="solid" color="warning">
+        Logout
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-toolbar>
+    <ion-title size="large">OnHand</ion-title>
+  </ion-toolbar>
+
+  <ion-grid>
+    <ion-row>
+      <!-- size="12" size-md="6" size-lg="10" offset-md="3" offset-lg="1" -->
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>OverView</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <table class="user-table" *ngIf="!isLoading">
+              <tr>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Phone</th>
+                <th>City</th>
+              </tr>
+              <tr *ngIf="tableData.length > 0">
+                <td>{{ tableData[0]?.email }}</td>
+                <td>{{ tableData[0]?.name }}</td>
+                <td>{{ tableData[0]?.phone }}</td>
+                <td>{{ tableData[0]?.address }}</td>
+              </tr>
+              <tr>
+                <th>app_id</th>
+                <th>key_secret</th>
+                <th>scope</th>
+                <th>tenant_id</th>
+              </tr>
+              <tr>
+                <td>{{ user?.app_id }}</td>
+                <td>{{ user?.key_secret }}</td>
+                <td>{{ user?.scope }}</td>
+                <td>{{ user?.tenant_id }}</td>
+              </tr>
+              <tr>
+                <th>app_id</th>
+                <th>key_secret</th>
+                <th>scope</th>
+                <th>tenant_id</th>
+              </tr>
+              <tr>
+                <td>{{ driver?.app_id }}</td>
+                <td>{{ driver?.key_secret }}</td>
+                <td>{{ driver?.scope }}</td>
+                <td>{{ driver?.tenant_id }}</td>
+              </tr>
+              <tr *ngIf="tableData.length === 0">
+                <td colspan="4">No user data available.</td>
+              </tr>
+            </table>
+
+            <div *ngIf="isLoading" class="ion-text-center">
+              <!-- ... -->
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

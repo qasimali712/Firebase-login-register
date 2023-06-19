@@ -24,3 +24,34 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+ion-input,
+ion-select {
+    height: 50px !important;
+    border-radius: 12px !important;
+    margin: 8px 8px 8px 11px !important;
+    width: 95% !important;
+    box-shadow: 0px 0px 15px -2px rgb(0 0 0 / 14%) !important;
+}
+
+.input-item {
+    box-shadow: 0px 0px 15px -2px rgb(0 0 0 / 14%) !important;
+    width: 95%;
+    position: relative;
+    left: 3%;
+    right: 2%;
+    height: 90%;
+}
+ion-select::part(icon) {
+  margin-right: 15px !important;
+}
+ion-item-sliding {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 16px -1px #e8e6e6;
+}
+
+ion-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

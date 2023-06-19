@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="242" viewBox="0 0 418 242">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="241.803" height="428" transform="translate(0.003 -71.705)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59c162"/>
+      <stop offset="1" stop-color="#71ae76"/>
+    </linearGradient>
+    <filter id="Ellipse_1" x="-9" y="130.338" width="124.678" height="127.726" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_765" x="361.509" y="20.976" width="63.32" height="64.008" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="182.195" y="119.057" width="106.236" height="94.538" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2074" x="343.928" y="134.466" width="58.24" height="63.722" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2073" x="230.368" y="17.763" width="75.968" height="64.679" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2075" x="65.071" y="59.759" width="50.059" height="44.368" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_2" x="166.764" y="-9.867" width="30.192" height="43.399" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_3" x="32.655" y="8.421" width="37.304" height="53.559" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_2">
+      <rect width="418" height="242"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(356.295 0.194) rotate(90)" clip-path="url(#clip-path)">
+      <g id="Group_1" data-name="Group 1" transform="translate(-4.061 -59.534)">
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Ellipse_1)">
+          <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="54.863" cy="53.339" rx="54.863" ry="53.339" transform="translate(106.68 136.34) rotate(90)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Ellipse_765)">
+          <ellipse id="Ellipse_765-2" data-name="Ellipse 765" cx="23.004" cy="22.66" rx="23.004" ry="22.66" transform="translate(415.83 26.98) rotate(90)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Path_1)">
+          <path id="Path_1-2" data-name="Path 1" d="M41.95,0,82.971,34.219,0,35.339Z" transform="matrix(0.82, -0.57, 0.57, 0.82, 191.19, 172.65)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Path_2074)">
+          <path id="Path_2074-2" data-name="Path 2074" d="M21.821,0,43.159,17.8,0,18.382Z" transform="matrix(0.59, 0.81, -0.81, 0.59, 367.8, 140.47)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Path_2073)">
+          <path id="Path_2073-2" data-name="Path 2073" d="M27.163,0,53.725,22.157,0,22.882Z" transform="translate(250.81 23.76) rotate(30)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Path_2075)">
+          <path id="Path_2075-2" data-name="Path 2075" d="M13.941,0,27.574,17.81,0,18.393Z" transform="matrix(0.95, -0.33, 0.33, 0.95, 74.07, 74.74)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Polygon_2)">
+          <path id="Polygon_2-2" data-name="Polygon 2" d="M12.7,0,25.4,12.192H0Z" transform="translate(187.96 -3.87) rotate(90)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 3.87, 415.83)" filter="url(#Polygon_3)">
+          <path id="Polygon_3-2" data-name="Polygon 3" d="M17.78,0l17.78,19.3H0Z" transform="translate(60.96 14.42) rotate(90)" opacity="0.8" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
