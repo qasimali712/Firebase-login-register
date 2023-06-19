@@ -45,9 +45,8 @@ export class DashboardPage implements OnInit {
   }
 
   logout() {
-    this.authService.logoutUser().then(()=>{
+    this.authService.logoutUser().then(() => {
       this.router.navigate(['/login']);
-    })
-
+    });
   }
 }
